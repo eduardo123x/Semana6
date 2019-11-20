@@ -22,6 +22,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/txtUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -36,7 +37,7 @@
 
         </TextView>
 
-        <EditText
+        <EditText android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword">
