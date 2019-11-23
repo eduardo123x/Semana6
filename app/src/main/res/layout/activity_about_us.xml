@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About Us"
+            android:text="@string/About_Us_Acercade"
             android:gravity="center"
             android:textSize="30dp"
             android:textColor="@color/colorPrimary">
@@ -25,7 +25,21 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Esta aplicación srive para reportes de ventas.">
+            android:text="@string/Trata_de">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Autor">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Soy_Yo">
 
         </TextView>
 

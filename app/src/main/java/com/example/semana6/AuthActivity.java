@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import com.example.semana6.models.Users;
 
 public class AuthActivity extends AppCompatActivity {
     Button btnLogin;
@@ -23,16 +24,13 @@ public class AuthActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (txtUser.getText().toString().equals("Bichito")) {
+             if (  Users.passwodIsValid(txtUser.getText().toString() , txtPassword.getText().toString())){
+
                     Intent s = new Intent(AuthActivity.this, MainActivity.class);
                     startActivity(s);
 
-
-
-
-
-                    
                 }
+
             }
         });
     }

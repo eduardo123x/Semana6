@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Semana6</string>
+    <string name="About_Us_Acercade">About Us</string>
+    <string name="Trata_de">Esta aplicación srive para reportes de ventas.</string>
+    <string name="Autor">Autores</string>
+    <string name="Soy_Yo">Eduardo Acevedo</string>
+
 </resources>
