@@ -32,7 +32,6 @@
             android:layout_height="match_parent"
             android:layout_weight="2"
             android:src="@drawable/ic_done_24px">
-
         </ImageButton>
 
 
@@ -46,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="LAPTOP APPLE">
+                android:text="LAPTOP HP">
 
             </TextView>
             <TextView
@@ -111,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="LAPTOP APPLE">
+                android:text="LAPTOP LENOVO">
 
             </TextView>
             <TextView
