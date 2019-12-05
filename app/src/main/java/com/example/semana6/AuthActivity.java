@@ -26,7 +26,7 @@ public class AuthActivity extends AppCompatActivity {
             public void onClick(View v) {
              if (  Users.passwodIsValid(txtUser.getText().toString() , txtPassword.getText().toString())){
 
-                    Intent s = new Intent(AuthActivity.this, MainActivity.class);
+                    Intent s = new Intent(AuthActivity.this, Reportes1.class);
                     startActivity(s);
 
                 }
