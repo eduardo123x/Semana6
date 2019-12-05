@@ -10,13 +10,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-66dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/images"></ImageButton>
 
         <TextView
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
             android:text="Usuario">
 
         </TextView>
@@ -32,30 +37,37 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
             android:text="Password">
 
         </TextView>
 
-        <EditText android:id="@+id/txtPassword"
+        <EditText
+            android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword">
 
         </EditText>
 
-        <Button android:id="@+id/btnLogin"
+        <Button
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Inicar Sesion"></Button>
+            android:text="Iniciar Sesion"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="olvido su contraseña"
+            android:textAlignment="textEnd">
+
+        </TextView>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salir"></Button>
-
+            android:text="Nueva Cuenta"></Button>
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
