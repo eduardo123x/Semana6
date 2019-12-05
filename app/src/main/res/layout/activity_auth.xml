@@ -17,6 +17,7 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:scaleType="centerInside"
             android:src="@drawable/images"></ImageButton>
 
         <TextView
