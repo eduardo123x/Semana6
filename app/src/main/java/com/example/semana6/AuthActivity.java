@@ -24,12 +24,9 @@ public class AuthActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-             if (  Users.passwodIsValid(txtUser.getText().toString() , txtPassword.getText().toString())){
 
-                    Intent s = new Intent(AuthActivity.this, MainActivity.class);
-                    startActivity(s);
-
-                }
+                Intent s = new Intent(AuthActivity.this, Home2Activity.class);
+                startActivity(s);
 
             }
         });
