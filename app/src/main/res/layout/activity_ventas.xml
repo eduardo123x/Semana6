@@ -178,7 +178,7 @@
                 </Button>
 
                 <Button
-                    android:layout_width="95dp"
+                    android:layout_width="108dp"
                     android:layout_height="110dp"
                     android:layout_marginLeft="20dp"
                     android:text="Cancelar">
@@ -198,7 +198,7 @@
 
                 <TextView
                     android:layout_width="95dp"
-                    android:layout_height="110dp"
+                    android:layout_height="25dp"
                     android:layout_marginLeft="20dp"
                     android:text="Nombre">
 
@@ -206,7 +206,7 @@
 
                 <TextView
                     android:layout_width="95dp"
-                    android:layout_height="110dp"
+                    android:layout_height="25dp"
                     android:layout_marginLeft="20dp"
                     android:text="Ventas">
 
@@ -219,7 +219,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="0"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -254,7 +254,7 @@
 
                 <TextView
                     android:layout_width="95dp"
-                    android:layout_height="110dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:text="Zapatillas Nike">
 
@@ -262,7 +262,7 @@
 
                 <TextView
                     android:layout_width="95dp"
-                    android:layout_height="110dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:text="S/500.00">
 
@@ -282,7 +282,7 @@
 
                 <TextView
                     android:layout_width="95dp"
-                    android:layout_height="110dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:text="Zapatillas Puma">
 
@@ -290,7 +290,7 @@
 
                 <TextView
                     android:layout_width="95dp"
-                    android:layout_height="110dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:text="S/500.00">
 
