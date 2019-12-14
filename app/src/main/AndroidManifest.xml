@@ -16,9 +16,7 @@
         <activity android:name=".ReportesActivity" />
         <activity android:name=".Home2Activity" />
         <activity android:name=".HomeActivity" />
-        <activity
-            android:name=".ui.login.Home"
-            android:label="@string/title_activity_home" />
+
         <activity android:name=".AuthActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".SingUpActivity" />
