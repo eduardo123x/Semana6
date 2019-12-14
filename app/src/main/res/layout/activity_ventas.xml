@@ -145,10 +145,159 @@
 
             </LinearLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puedes realizar operaciones de fecha"
+                android:textAlignment="center"></TextView>
 
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agrupamiento por:"
+                android:layout_marginTop="10dp"
+                android:textAlignment="textStart"></TextView>
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                >
+
+
+                <Button
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Aplicar">
+
+                </Button>
+
+                <Button
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Cancelar">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Nombre">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ventas">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Zapatillas Adidas">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="S/500.00">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Zapatillas Nike">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="S/500.00">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Zapatillas Puma">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="S/500.00">
+
+                </TextView>
+
+
+            </LinearLayout>
 
 
 
